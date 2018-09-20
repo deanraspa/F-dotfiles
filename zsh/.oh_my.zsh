@@ -52,7 +52,7 @@ DISABLE_UPDATE_PROMPT=true
 # Custom plugins may be added to ~/.oh-my-zsh/custom/plugins/
 # Example format: plugins=(rails git textmate ruby lighthouse)
 # Add wisely, as too many plugins slow down shell startup.
-plugins=(autojump command-not-found django gnu-utils history-substring-search pip python zsh-autosuggestions zsh-syntax-highlighting)
+plugins=(aws battery autojump brew colored-man-pages command-not-found common-aliases docker docker-compose git gradle gnu-utils history-substring-search kubectl minikube npm pip python zsh-autosuggestions zsh-syntax-highlighting)
 
 source $ZSH/oh-my-zsh.sh
 
