@@ -44,7 +44,7 @@ POWERLEVEL9K_VCS_COMMIT_ICON="\uf417"
 POWERLEVEL9K_MULTILINE_FIRST_PROMPT_PREFIX="%F{blue}\u256D\u2500%f"
 POWERLEVEL9K_MULTILINE_LAST_PROMPT_PREFIX="%F{blue}\u2570\uf460%f "
 POWERLEVEL9K_LEFT_PROMPT_ELEMENTS=(context os_icon ssh root_indicator dir dir_writable vcs)
-POWERLEVEL9K_RIGHT_PROMPT_ELEMENTS=(command_execution_time  status  time)
+POWERLEVEL9K_RIGHT_PROMPT_ELEMENTS=(command_execution_time status time battery)
 HIST_STAMPS="mm/dd/yyyy"
 DISABLE_UPDATE_PROMPT=true
 
