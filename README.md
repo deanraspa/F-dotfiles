@@ -1,7 +1,8 @@
-![F-dotfiles banner](https://raw.githubusercontent.com/EgillAgnison/bulkdata/master/F-dotfiles/banner.png)
+![F-dotfiles banner](https://raw.githubusercontent.com/Kraymer/bulkdata/master/F-dotfiles/banner.png)
 
 *F-dotfiles is an opiniated dotfiles organization scheme based on stow.   
-Highest priorities are ease of maintenance and deployment on both Linux and OS X.*
+Highest priorities are ease of maintenance and deployment on both Linux and OS X.
+This repository is based off of a fork of the [Kraymer/F-dotfiles](https://github.com/Kraymer/F-dotfiles) repository.*
 
 - **`stow` powered:** symlink dotfiles and thus keep them always up-to-date in your repository
 - **topical organization:** organize dotfiles by application facilitating reuse across different machines
@@ -58,4 +59,3 @@ Feel confused ? Check [example](https://github.com/EgillAgnison/F-dotfiles/tree/
 
 ---
 <i id="f1">1</i> it's because we installed `stow` package at step 2 that the flag `-t ~` can be omitted here, see [.stowrc](https://github.com/EgillAgnison/F-dotfiles/blob/master/stow/.stowrc) [⤸](#a1)  
-<i id="f2">2</i> https://www.youtube.com/watch?v=ezQLP1dj_t8 [⤸](#a2)
