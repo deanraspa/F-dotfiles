@@ -12,7 +12,7 @@ This repository is based off of a fork of the [Kraymer/F-dotfiles](https://githu
 
 ## Install
 
-1. clone the repository : `git clone https://github.com/EgillAgnison/F-dotfiles.git`
+1. clone the repository : `git clone git@github.com:deanraspa/F-dotfiles.git`
 1. setup `stow`, *inception style* : `stow -t ~ stow` 
 1. install desired package via `stow <directory>` <sup id="a1">[1](#f1)</sup>
 
