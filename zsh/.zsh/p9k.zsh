@@ -1,6 +1,6 @@
 zplug "bhilburn/powerlevel9k", use:powerlevel9k.zsh-theme
 
-DEFAULT_USER="dean"
+DEFAULT_USER="draspa"
 
 POWERLEVEL9K_MODE='nerdfont-complete'
 
