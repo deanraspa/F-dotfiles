@@ -6,7 +6,15 @@ compinit
 _comp_options+=(globdots)	# auto-complete dot files
 
 # GNU core utilities
-eval `dircolors ~/.zsh/dircolors.256dark`	# colored ls
+if whence dircolors >/dev/null; then
+  eval "$(dircolors ~/.zsh/dircolors.256dark)"
+  zstyle ':completion:*:default' list-colors ${(s.:.)LS_COLORS}
+  alias ls='ls --color'
+else
+  export CLICOLOR=1
+  zstyle ':completion:*:default' list-colors ''
+fi
+
 export LC_ALL=en_US.UTF-8
 export LANG=en_US.UTF-8
 
