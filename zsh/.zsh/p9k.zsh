@@ -1,6 +1,7 @@
 zplug "bhilburn/powerlevel9k", use:powerlevel9k.zsh-theme
 
 DEFAULT_USER="draspa"
+AWS_DEFAULT_PROFILE="eis-deliverydevqa"
 
 POWERLEVEL9K_MODE='nerdfont-complete'
 
@@ -45,6 +46,6 @@ POWERLEVEL9K_LEFT_SUBSEGMENT_SEPARATOR=$'\uE0b5'
 POWERLEVEL9K_RIGHT_SUBSEGMENT_SEPARATOR=$'\uE0b7'
 POWERLEVEL9K_BATTERY_STAGES=($'\uf579 ' $'\uf57a ' $'\uf57b ' $'\uf57c ' $'\uf57d ' $'\uf57e ' $'\uf57f ' $'\uf580 ' $'\uf581 ' $'\uf578 ')
 POWERLEVEL9K_LEFT_PROMPT_ELEMENTS=(context os_icon ssh root_indicator dir dir_writable vcs)
-POWERLEVEL9K_RIGHT_PROMPT_ELEMENTS=(command_execution_time status nvm ip time battery)
+POWERLEVEL9K_RIGHT_PROMPT_ELEMENTS=(command_execution_time status nvm ip aws time battery)
 HIST_STAMPS="mm/dd/yyyy"
 DISABLE_UPDATE_PROMPT=true

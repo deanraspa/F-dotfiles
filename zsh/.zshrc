@@ -23,3 +23,12 @@ fi
 
 # source plugins and add commands to the PATH
 zplug load
+
+export PATH="$HOME/.jenv/bin:$PATH"
+eval "$(jenv init -)"
+
+# Added by Krypton
+export GPG_TTY=$(tty)
+
+# JAVA_HOME config
+export JAVA_HOME=$(eval jenv javahome)
