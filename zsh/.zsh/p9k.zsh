@@ -1,7 +1,6 @@
 zplug "bhilburn/powerlevel9k", use:powerlevel9k.zsh-theme
 
 DEFAULT_USER="draspa"
-AWS_DEFAULT_PROFILE="eis-deliverydevqa"
 
 POWERLEVEL9K_MODE='nerdfont-complete'
 
