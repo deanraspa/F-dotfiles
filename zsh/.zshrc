@@ -23,11 +23,13 @@ fi
 # source plugins and add commands to the PATH
 zplug load
 
-export PATH="$HOME/.jenv/bin:$PATH"
-eval "$(jenv init -)"
+# If jenv is installed
+if type "$jenv" > /dev/null; then
+  # JAVA_HOME config
+  export JAVA_HOME=$(eval jenv javahome)
+  export PATH="$HOME/.jenv/bin:$PATH"
+  eval "$(jenv init -)"
+fi
 
 # Added by Krypton
 export GPG_TTY=$(tty)
-
-# JAVA_HOME config
-export JAVA_HOME=$(eval jenv javahome)
