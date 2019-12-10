@@ -24,6 +24,7 @@ alias aws-lz-dqa="unset AWS_PROFILE && gimme-aws-creds --profile eis-lz-ehost-de
 alias aws-lo="unset AWS_PROFILE"
 
 alias ecr-login='aws-plive && eval $(aws ecr get-login --no-include-email)'
-alias ecr-lz-login='aws-lz-dqa && eval $(aws ecr get-login --no-include-email)'
+alias ecr-lz-login-old='aws-lz-dqa && eval $(aws ecr get-login --no-include-email --registry-ids 098917983173)'
+alias ecr-lz-login='aws-lz-dqa && aws ecr get-login --no-include-email | source /dev/stdin'
 
 [ -f ~/.kubectl_aliases ] && source ~/.kubectl_aliases
