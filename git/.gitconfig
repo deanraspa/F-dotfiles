@@ -3,12 +3,17 @@
     path = ~/.config/.gitconfig.sec
 
 [user]
-    name = Fabrice Laporte
-    email = fabrice@yescapa.com
+    name = Dean Raspa
+    email = draspa@ebsco.com
 [core]
-    editor = nano
+    editor = code
     excludesfile = ~/.gitignore
-
+[gpg]
+        program = /usr/bin/krgpg
+[commit]
+        gpgSign = true
+[tag]
+        forceSignAnnotated = true
 # From there, sections are in alphabetic order
 
 [alias]
@@ -25,27 +30,12 @@
     branch = auto
     ui = true
 
-[diff]
-    tool = meld
-
-[difftool]
-    prompt = false
-
 [gui]
     # Remove `git gui` pop-up warning
     gcwarning = false
 
 [help]
     autocorrect = 1
-
-[merge]
-    tool = meld
-
-[mergetool]
-    keepBackup = false
-
-[mergetool "meld"]
-    cmd = meld "$LOCAL" "$BASE" "$REMOTE" --output "$MERGED"
 
 [pull]
     rebase = true
