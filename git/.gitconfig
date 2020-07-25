@@ -4,7 +4,7 @@
 
 [user]
     name = Dean Raspa
-    email = draspa@ebsco.com
+    email = draspa@gmail.com
 [core]
     editor = code
     excludesfile = ~/.gitignore
