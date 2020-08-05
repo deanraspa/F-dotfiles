@@ -23,8 +23,8 @@ alias aws-dqa="unset AWS_PROFILE && gimme-aws-creds --profile eis-deliverydevqa 
 alias aws-lz-dqa="unset AWS_PROFILE && gimme-aws-creds --profile eis-lz-ehost-devqa && export AWS_PROFILE=eis-lz-ehost-devqa"
 alias aws-lo="unset AWS_PROFILE"
 
-alias ecr-login='aws-plive && eval $(aws ecr get-login --no-include-email)'
-alias ecr-lz-login-old='aws-lz-dqa && eval $(aws ecr get-login --no-include-email --registry-ids 098917983173)'
-alias ecr-lz-login='aws-lz-dqa && aws ecr get-login --no-include-email | source /dev/stdin'
+alias ecr-login='aws-plive && aws ecr get-login-password | docker login --username AWS --password-stdin 201777367430.dkr.ecr.us-east-1.amazonaws.com'
+alias ecr-lz-login='aws-lz-dqa && aws ecr get-login-password | docker login --username AWS --password-stdin https://098917983173.dkr.ecr.us-east-1.amazonaws.com'
+
 
 [ -f ~/.kubectl_aliases ] && source ~/.kubectl_aliases

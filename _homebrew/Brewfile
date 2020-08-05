@@ -1,48 +1,80 @@
-aacgain
-ack
-autojump
-bash-completion
-bash-git-prompt
-chromaprint
-coreutils
-exiftool
-faac
-faad2
-findutils
-gcc
-git
-gnu-sed
-homebrew/binary/libspotify
-homebrew/dupes/nano
-homebrew/dupes/zlib
-htop
-imagemagick
-iperf
-jpeginfo
-libksba
-libvorbis
-libxslt
-libyaml
-mp3gain
-mp3val
-mpg123
-mplayer
-mutt
-ncdu
-nginx
-ninja
-poppler
-pyexiv2
-qpdf
-rbenv
-redis
-spark
-stow
-the_silver_searcher
-tmux
-tree
-unrar
-watch
-webp
-wget
-youtube-dl
+tap "adoptopenjdk/openjdk"
+tap "elastic/tap"
+tap "homebrew/bundle"
+tap "homebrew/cask"
+tap "homebrew/cask-fonts"
+tap "homebrew/cask-versions"
+tap "homebrew/core"
+tap "microsoft/mssql-release"
+tap "weaveworks/tap"
+brew "ansible"
+brew "aws-iam-authenticator"
+brew "awscli"
+brew "cookiecutter"
+brew "curl"
+brew "direnv"
+brew "unixodbc"
+brew "freetds"
+brew "nss"
+brew "gdal"
+brew "git"
+brew "go"
+brew "gradle"
+brew "helm"
+brew "hyperkit", link: false
+brew "jenv"
+brew "kubernetes-cli"
+brew "lft"
+brew "maven"
+brew "mitmproxy"
+brew "mkcert"
+brew "mono"
+brew "nghttp2"
+brew "node"
+brew "nvm"
+brew "packer"
+brew "stow"
+brew "tmux"
+brew "wget"
+brew "zsh"
+brew "zsh-completions"
+brew "elastic/tap/filebeat-oss"
+brew "microsoft/mssql-release/msodbcsql17"
+brew "microsoft/mssql-release/mssql-tools"
+brew "weaveworks/tap/eksctl"
+cask "adobe-acrobat-reader"
+cask "adoptopenjdk11"
+cask "adoptopenjdk12"
+cask "adoptopenjdk8"
+cask "anaconda"
+cask "apache-directory-studio"
+cask "datagrip"
+cask "docker"
+cask "dotnet-sdk"
+cask "drawio"
+cask "flowdock"
+cask "font-fira-code"
+cask "font-firacode-nerd-font"
+cask "font-firacode-nerd-font-mono"
+cask "font-hack-nerd-font"
+cask "font-meslo-nerd-font-mono"
+cask "gimp"
+cask "github"
+cask "intellij-idea"
+cask "iterm2"
+cask "jumpcut"
+cask "kdiff3"
+cask "keystore-explorer"
+cask "mysqlworkbench"
+cask "opera"
+cask "postman"
+cask "slack"
+cask "soapui"
+cask "sourcetree"
+cask "spectacle"
+cask "sql-operations-studio"
+cask "sts"
+cask "teamsql"
+cask "virtualbox"
+cask "visual-studio-code"
+cask "wireshark"
