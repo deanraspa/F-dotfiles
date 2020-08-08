@@ -8,6 +8,7 @@ zplug "plugins/common-aliases", from:oh-my-zsh
 zplug "plugins/docker", from:oh-my-zsh
 zplug "plugins/docker-compose", from:oh-my-zsh
 zplug "plugins/git", from:oh-my-zsh
+zplug "plugins/gitfast", from:oh-my-zsh
 zplug "plugins/gradle", from:oh-my-zsh
 zplug "plugins/gnu-utils", from:oh-my-zsh
 zplug "plugins/kubectl", from:oh-my-zsh

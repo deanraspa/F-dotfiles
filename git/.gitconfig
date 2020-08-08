@@ -4,16 +4,16 @@
 
 [user]
     name = Dean Raspa
-    email = draspa@gmail.com
+	email = draspa@gmail.com
 [core]
     editor = code
     excludesfile = ~/.gitignore
 [gpg]
-        program = /usr/bin/krgpg
+	program = /usr/bin/krgpg
 [commit]
-        gpgSign = true
+	gpgSign = true
 [tag]
-        forceSignAnnotated = true
+	forceSignAnnotated = true
 # From there, sections are in alphabetic order
 
 [alias]
